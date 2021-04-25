@@ -1,5 +1,3 @@
-import React from "react";
-
 function randomNum(min = 0, max) {
   // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
